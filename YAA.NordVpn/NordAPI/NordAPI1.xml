@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root agent="NordVPN_Client_5.56.780.0" api="api.nordvpn.com">
+    <item name="ServerLoad" type="get">
+        <url>https://api.nordvpn.com/server/stats/</url>
+        <url_parameters>
+            <url_parameter type="variable" name="server">server</url_parameter>
+        </url_parameters>
+    </item> 
+    <item name="Servers" type="get">
+        <url>https://api.nordvpn.com/server</url>
+    </item>
+    <item name="Recommendations" type="get">
+        <url>https://api.nordvpn.com/v1/servers/recommendations</url>
+    </item>
+
+   
+</root>
